@@ -1,0 +1,10 @@
+/* Tipografías de Grupo Rhino
+   Principal: Glofte (Regular)  ·  Suplementaria: Satoshi
+
+   GLOFTE: copiar el archivo de la fuente en esta carpeta con el nombre
+   Glofte-Regular.otf (y, si se tiene, Glofte-Regular.woff2 — carga más rápido en celular).
+   SATOSHI: se carga desde Fontshare (gratuita para uso comercial). Para alojarla
+   en el propio sitio, descargar los archivos y reemplazar el @import por @font-face locales.
+*/
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap');
+@font-face{font-family:'Glofte';src:url('Glofte-Regular.woff2') format('woff2'),url('Glofte-Regular.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}

@@ -1,0 +1,10 @@
+Carpeta de tipografías de Grupo Rhino
+
+1) Glofte (principal): copiar acá el archivo con este nombre exacto
+     Glofte-Regular.otf        (el OTF que ya tienen)
+     Glofte-Regular.woff2      (opcional, recomendado: pesa menos en el celular)
+   No hace falta tocar código: fonts.css ya lo busca.
+
+2) Satoshi (suplementaria): se carga automáticamente desde Fontshare.
+   Si prefieren alojarla en el sitio, descarguen la familia desde fontshare.com
+   y reemplacen el @import de fonts.css por @font-face apuntando a los archivos.
